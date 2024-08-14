@@ -1,4 +1,5 @@
-// Linear Search of Array
+// Linear Search of Array in CPP
+
 
 #include <iostream>
 using namespace std;
