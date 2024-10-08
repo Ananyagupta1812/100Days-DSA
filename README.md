@@ -1,4 +1,4 @@
-##Algorithms 
+<h3>Leetcode 75</h3>
 <p> The solutions are coded in Python3 language.</p>
 <table>
    <tr>
