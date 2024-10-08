@@ -13,5 +13,11 @@
     <td>Merge string Alternately</td>
     <td>Array/String</td>
   </tr>
+  <tr>
+    <td>2.</td>
+    <td>1071</td>
+    <td>Greatest Common Divisor of Strings</td>
+    <td>Array/String</td>
+  </tr>
 
 </table>
