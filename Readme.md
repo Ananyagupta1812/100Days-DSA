@@ -19,5 +19,10 @@
     <td>Greatest Common Divisor of Strings</td>
     <td>Array/String</td>
   </tr>
-
+<tr>
+    <td>3.</td>
+    <td>1431</td>
+    <td>Kids With the Greatest Number of Candies</td>
+    <td>Array/String</td>
+  </tr>
 </table>
