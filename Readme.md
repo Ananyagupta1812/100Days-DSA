@@ -27,8 +27,8 @@
   </tr>
    <tr>
     <td>4.</td>
-    <td>650</td>
-    <td>Can place flowers</td>
+    <td>605</td>
+    <td>Can Place Flowers</td>
     <td>Array/String</td>
   </tr>
 </table>
