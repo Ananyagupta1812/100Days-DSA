@@ -25,4 +25,10 @@
     <td>Kids With the Greatest Number of Candies</td>
     <td>Array/String</td>
   </tr>
+   <tr>
+    <td>4.</td>
+    <td>650</td>
+    <td>Can place flowers</td>
+    <td>Array/String</td>
+  </tr>
 </table>
