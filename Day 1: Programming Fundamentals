@@ -1,0 +1,29 @@
+//1. Write a program to check if a number is even or odd.
+#include <iostream>
+using namespace std;
+void checkprime(int n){
+    if (n == 1)
+        cout<<"The given number is prime number"<<endl;
+    if (n%2==0)
+        cout<<"The given number is not a prime number"<<endl;
+    else 
+        cout<<"The given number is prime number"<<endl;
+}
+int main(){
+    int n;
+    cout<<"Enter any number:";
+    cin>>n; 
+    checkprime(n);
+    return 0; 
+}
+
+//2. Write a program to find the factorial of a number using a loop.
+
+
+//3. Create a program to print the first n Fibonacci numbers.
+
+
+//4. Write a program to check if a given number is prime.
+
+
+//5. Implement a program to reverse a number (e.g., input: 123, output: 321).
