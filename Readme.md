@@ -1,34 +1,24 @@
-<h3>Leetcode 75</h3>
-<p> The solutions are coded in Python3 language.</p>
+<h3>100 Days DSA Challenge</h3>
+<p> The solutions are coded in C++ language.</p>
 <table>
    <tr>
-    <th>Serial No.</th>
-    <th>Problem No.</th>
-    <th>Title</th>
+    <th>Day No.</th>
     <th>Topic</th>
   </tr>
   <tr>
     <td>1.</td>
-    <td>1768</td>
-    <td>Merge string Alternately</td>
-    <td>Array/String</td>
+    <td>Programming Fundamentals</td>
   </tr>
   <tr>
     <td>2.</td>
-    <td>1071</td>
-    <td>Greatest Common Divisor of Strings</td>
-    <td>Array/String</td>
+    <td>Arrays Basics</td>
   </tr>
 <tr>
     <td>3.</td>
-    <td>1431</td>
-    <td>Kids With the Greatest Number of Candies</td>
     <td>Array/String</td>
   </tr>
    <tr>
     <td>4.</td>
-    <td>605</td>
-    <td>Can Place Flowers</td>
     <td>Array/String</td>
   </tr>
 </table>
