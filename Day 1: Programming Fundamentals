@@ -1,6 +1,111 @@
 //1. Write a program to check if a number is even or odd.
 #include <iostream>
 using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter any number:";
+    cin>>n; 
+    if(n%2==0)
+        cout<<"The given number is even."<<endl;
+    else 
+       cout<<"The given number is odd."<<endl;  
+    return 0;
+}
+
+//2. Write a program to find the factorial of a number using a loop.
+#include <iostream>
+using namespace std;
+
+int factorial(int fact){
+    for (int i=fact-1;i>=1; i--){
+        fact=fact*i;
+    }
+    return fact;
+}
+
+int main(){
+    int n;
+    cout<<"Enter any number:";
+    cin>>n; 
+    int result = factorial(n);
+    cout<< "Factorial of the given number is: "<<result <<endl;
+    return 0; 
+}
+
+//using recursion.
+#include <iostream>
+using namespace std;
+
+int factorial(int n){
+    if (n==0 || n==1)
+        return 1;
+    else 
+        return n*factorial(n-1);
+}
+
+int main(){
+    int n;
+    cout<<"Enter any number:";
+    cin>>n; 
+    int result = factorial(n);
+    cout<< "Factorial of the given number is: "<<result <<endl;
+    return 0; 
+}
+
+//3. Create a program to print the first n Fibonacci numbers.
+#include <iostream>
+using namespace std;
+int fibonacci(int n){
+    int a=0, b=1, next;
+    for (int i=1; i<=n;i++){
+        if (i==1){
+            cout<<a<<" ";
+            continue;
+        }
+        if (i==2){
+            cout<<b<<" ";
+            continue;
+        }
+        next= a+b;
+        a=b;
+        b=next;
+        cout<< next <<" ";
+    }
+}
+int main(){
+    int n;
+    cout<<"Enter the limit:";
+    cin>>n; 
+    cout<< "Fibonacci Series: "<<endl;
+    fibonacci(n);
+    return 0; 
+}
+
+//using recursion.
+#include <iostream>
+using namespace std;
+
+int fibonacci(int n){
+    if (n<=1)
+        return n;
+    else 
+        return fibonacci(n-1)+fibonacci(n-2);
+}
+
+int main(){
+    int n;
+    cout<<"Enter the limit:";
+    cin>>n; 
+    cout<< "fibonacci series: ";
+    for(int i=0; i<=n;i++)
+        cout<<fibonacci(i)<<" ";
+    return 0; 
+}
+
+//4. Write a program to check if a given number is prime.
+#include <iostream>
+using namespace std;
 void checkprime(int n){
     if (n == 1)
         cout<<"The given number is prime number"<<endl;
@@ -17,13 +122,19 @@ int main(){
     return 0; 
 }
 
-//2. Write a program to find the factorial of a number using a loop.
-
-
-//3. Create a program to print the first n Fibonacci numbers.
-
-
-//4. Write a program to check if a given number is prime.
-
 
 //5. Implement a program to reverse a number (e.g., input: 123, output: 321).
+#include <iostream>
+using namespace std;
+int main(){
+    int n,reversed=0,remainder;
+    cout<<"Enter any number:";
+    cin>>n; 
+    while(n!=0){
+        remainder=n%10;
+        reversed= reversed*10 + remainder;
+        n=n/10;
+    }
+    cout<<"Reversed number: "<<reversed<<endl;
+    return 0;
+}
