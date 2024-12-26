@@ -1,5 +1,5 @@
 <h3>100 Days DSA Challenge</h3>
-<p> The solutions are coded in C++ language.</p>
+<p> The solutions are coded in C++ language. Each day consist of 5 questions.</p>
 <table>
    <tr>
     <th>Day No.</th>
