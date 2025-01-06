@@ -1,5 +1,41 @@
 //Day 2: Arrays Basics
 //1. Write a program to find the largest and smallest elements in an array.
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter the size of the array:";
+    cin>>n; 
+    int arr[n];
+    cout<<"Enter the elements of the array: ";
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+    int len= sizeof(arr)/sizeof(arr[0]);
+    int max= arr[0];
+    int min= arr[n];
+
+    for (int i=0; i< len; i++) {
+        if (max>arr[i])
+            continue;
+        else
+            max= arr[i];
+    } 
+
+    for (int i=len; i>=0; i--) {
+        if (min<arr[i])
+            continue;
+        else
+            min= arr[i];
+    }
+
+    cout<<"The largest element is:"<<max<<endl;
+    cout<<"The smallest element is:"<<min<<endl;
+    return 0;
+
+}
+
 //2. Implement a program to find the second largest element in an array.
 //3. Write a function to rotate an array to the left by k positions.
 //4. Create a program to count the number of occurrences of a given element in an array.
