@@ -52,7 +52,7 @@ void findSecondLargest(int arr[], int n) {
             secondLargest = arr[i];
         }
     }
-    if (secondLargest == INT_MIN)
+    if (largest == INT_MIN)
         cout << "No second largest element." << endl;
     else
         cout << "Second Largest: " << secondLargest << endl;
